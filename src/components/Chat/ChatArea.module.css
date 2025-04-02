@@ -1,0 +1,18 @@
+.fade-out {
+  animation: fade-out 0.25s both;
+}
+.fade-in {
+  animation: fade-in 0.25s both 0.1s;
+}
+@keyframes fade-out {
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+@keyframes fade-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}

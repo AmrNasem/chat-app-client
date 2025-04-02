@@ -1,0 +1,21 @@
+.aside {
+  transition: 0.3s;
+}
+
+@media (max-width: 1023.9px) {
+  .aside {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    min-width: 320px;
+    box-shadow: -1px 0 10px rgba(0, 0, 0, 0.068);
+    height: 100%;
+  }
+  .aside > div {
+    width: 100%;
+  }
+  .hide {
+    transform: translateX(-500px);
+  }
+}

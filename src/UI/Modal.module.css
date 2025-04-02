@@ -1,0 +1,17 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.6);
+  animation: opening 0.2s;
+}
+.closing {
+  animation: closing 0.2s both !important;
+}
+@keyframes opening {
+  0% {
+    opacity: 0;
+  }
+}
+@keyframes closing {
+  100% {
+    opacity: 0;
+  }
+}

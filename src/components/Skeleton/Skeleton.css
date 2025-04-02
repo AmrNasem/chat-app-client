@@ -1,0 +1,18 @@
+.skeleton {
+  background-color: rgba(230, 230, 230, 0.95);
+  height: 0.89em;
+  width: 100%;
+  animation: pulse 1s linear infinite alternate;
+  border-radius: 2px;
+}
+@media (min-width: 768px) {
+  .skeleton.w-title {
+    width: 100px !important;
+  }
+}
+
+@keyframes pulse {
+  100% {
+    background-color: rgba(230, 230, 230, 0.3);
+  }
+}

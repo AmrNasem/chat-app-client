@@ -1,0 +1,15 @@
+/* @layer utilities {
+} */
+.bg-main {
+  @apply bg-gradient-to-r from-main-from to-main-to;
+}
+.border-main {
+  @apply border-gradient from-main-from to-main-to;
+}
+
+main {
+  flex: 1;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none !important;
+}
